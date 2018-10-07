@@ -3,7 +3,7 @@
 
 ***I want to remind the Reader that Vyper is still heavily under development, the code could become invalid in further versions, because of security reasons. I will try to keep the code updated with the newest Vyper version.***
 
-![Simple Vyper ERC 20 Token Template Python vy](Images/vyper.svg)
+<img src="Images/vyper.svg" width="100%" height="144">
 
 ## DISCLAIMER: ⚠️⚠️⚠️
 
