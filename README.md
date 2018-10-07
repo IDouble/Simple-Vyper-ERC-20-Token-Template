@@ -10,7 +10,7 @@
 **THIS TOKEN HAS NOT BEEN AUDITED AND IS NOT RECOMMENDED FOR PRODUCTION FUNDS. While the authors have made every effort to ensure the security of the supplied code, funds loss is always a possibility, and both Vyper's compiler and language remain nascent and rapidly evolving.** ⚠️
 
 ## 📝 SmartContractCode.vy 🐍 
-**\[⚠️VYPER IS STILL UNDER DEVELOPMENT, SHOULD NOT BE USED IN PRODUCTION CODE ⚠️]**
+**⚠️ VYPER IS STILL UNDER DEVELOPMENT, THIS CODE SHOULD NOT BE USED IN PRODUCTION ⚠️**
 
 ```
 
