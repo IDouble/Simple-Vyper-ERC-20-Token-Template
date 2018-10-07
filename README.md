@@ -1,4 +1,4 @@
-# Simple-Vyper-ERC-20-Token-Template
+# 🐍 Simple Vyper ERC 20 Token Template 🐍
 🐍 Very Simple ERC-20 Smart Contract Template written in Vyper to create your own Cryptocurrency on the Ethereum Blockchain, with many customizable Options 📝
 
 ***I want to remind the Reader that Vyper is still heavily under development, the code could become invalid in further versions, because of security reasons. I will try to keep the code updated with the newest Vyper version.***
@@ -9,13 +9,13 @@
 
 **THIS TOKEN HAS NOT BEEN AUDITED AND IS NOT RECOMMENDED FOR PRODUCTION FUNDS. While the authors have made every effort to ensure the security of the supplied code, funds loss is always a possibility, and both Vyper's compiler and language remain nascent and rapidly evolving.** ⚠️
 
-## SmartContractCode.vy 🐍
+## 📝 SmartContractCode.vy 🐍 
+**\[⚠️VYPER IS STILL UNDER DEVELOPMENT, SHOULD NOT BE USED IN PRODUCTION CODE ⚠️]**
 
 ```
 
 # Solidity-Compatible EIP20/ERC20 Token
 # Implements https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
-# Author: Phil Daian
 
 # The use of the uint256 datatype as in this token is not
 # recommended, as it can pose security risks.
@@ -96,6 +96,6 @@ def approve(_spender : address, _value : uint256(wei)) -> bool:
 @public
 @constant
 def allowance(_owner : address, _spender : address) -> uint256(wei):
-return self.allowances[_owner][_spender]
+    return self.allowances[_owner][_spender]
 
 ```
