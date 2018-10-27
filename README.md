@@ -3,6 +3,8 @@
 
 ***I want to remind the Reader that Vyper is still heavily under development, the code could become invalid in further versions, because of security reasons. I will try to keep the code updated with the newest Vyper version.***
 
+<img src="Images/vyper.svg" width="100%" height="144">
+
 ## DISCLAIMER: ⚠️⚠️⚠️
 
 **To achieve full Solidity compatibility, we use the low-level num256 datatype in Vyper. This is NOT recommended for contracts where either full Solidity compatibility is not required, or no other compelling usage for using num256 over num exists. Notably, num256 is not overflow protected and may not support all the automatic security features of num as the language evolves. As the code of this token shows, the use of num256 over num also significantly complicates the contract code.** ⚠️
