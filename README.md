@@ -101,3 +101,4 @@ def allowance(_owner : address, _spender : address) -> uint256(wei):
     return self.allowances[_owner][_spender]
 
 ```
+![Binance Ready to give crypto a try ? buy bitcoin and other cryptocurrencies on binance](Images/binance.jpg)
